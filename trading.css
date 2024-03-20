@@ -1,0 +1,21 @@
+#mainUI {
+    display: flex;
+}
+
+#myAmounts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px;
+}
+
+#myResources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px;
+    padding-top: 0;
+    margin-top: 0;
+}
