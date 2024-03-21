@@ -23,8 +23,19 @@ myStoneUI.innerHTML = "0";
 
 
 // SubmitBtn
-submitBtn.addEventListener('click', submitResources());
+submitBtn.addEventListener('click', submitResources);
 
 function submitResources () {
-    myFoodUI.innerHTML = foodInput.textContent;
+    myFoodUI.innerHTML = foodInput.value;
+    myWoodUI.innerHTML = woodInput.value;
+    myGoldUI.innerHTML = goldInput.value;
+    myStoneUI.innerHTML = stoneInput.value;
+    clearInputs();
+}
+
+function clearInputs () {
+    foodInput.value = "";
+    woodInput.value = "";
+    goldInput.value = "";
+    stoneInput.value = "";
 }

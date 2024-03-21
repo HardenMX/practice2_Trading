@@ -22,3 +22,12 @@ html {
     padding: 8px;
     padding-top: 8px;
 }
+
+.myItems {
+    margin-top: 8px;
+}
+#submitBtn {
+    margin-top: 16px;
+    width: 83%;
+    background-color: yellow;
+}
