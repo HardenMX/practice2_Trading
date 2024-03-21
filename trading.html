@@ -13,7 +13,7 @@
 
     <div id="mainUI">
         <div id="myAmounts">
-            <h2>Input your resources</h2>
+            <h3>Input your resources</h3>
 
             <label for="food" class="myItems">Food</label>
             <input type="number" id="food" />
@@ -28,14 +28,35 @@
         </div>
 
         <div id="myResources">
-            <h2>You have these resources</h2>
+            <h3>You have these resources</h3>
             <p id="myFood">I have <span id="myFoodUI"></span> Food</p>
             <p id="myWood">I have <span id="myWoodUI"></span> Wood</p>
             <p id="myGold">I have <span id="myGoldUI"></span> Gold</p>
             <p id="myStone">I have <span id="myStoneUI"></span> Stone</p>
         </div>
 
+        <div id="itemsToBuy">
+          
+          <label for="resourceSelect" class="myItems" >Choose a resource to trade:</label>
+
+          <select name="resourceSelect" id="resourceSelect" class="myItems">
+            <option value="food">Food</option>
+            <option value="wood">Wood</option>
+            <option value="gold">Gold</option>
+            <option value="stone">Stone</option>
+          </select>
+
+          <input class="myItems" id="tradingAmount" />
+          <div id="itemsBtn" class="myItems">
+          <button type="button" id="buyBtn">Buy</button>
+          <button type="button" id="sellBtn">Sell</button>
+          </div>
+        </div>
+
+
     </div>
+
+
 
 	<script src="trading.js"></script>
   </body>

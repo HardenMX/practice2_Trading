@@ -31,3 +31,13 @@ html {
     width: 83%;
     background-color: yellow;
 }
+
+#itemsToBuy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+#itemsBtns {
+    display: flex;
+}
